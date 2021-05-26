@@ -34,7 +34,7 @@ func routeGetCidrToMask(w http.ResponseWriter, r *http.Request) {
 }
 
 // e.g. http://127.0.0.1:8000/mask-to-cidr?value=255.0.0.1
-func routeGetMaskToCidr(w http.ResponseWriter, r *http.Request) {
+func routeGetMaskToCidr(w http.ResponseWriter, *http.Request) {
 	value := r.URL.Query().Get("value")
 	res := Response{
 		"maskToCidr",
