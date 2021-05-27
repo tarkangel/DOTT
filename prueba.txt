@@ -1,1 +1,1 @@
-test new 5.0
+test new 6.0
