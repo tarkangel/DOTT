@@ -1,1 +1,1 @@
-test new 2.0
+test new 3.0
